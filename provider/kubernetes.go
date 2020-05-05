@@ -1,4 +1,4 @@
-package kubernetes
+package provider
 
 type IKubernetesService interface {
 	CreateCluster(clusterName string) error
